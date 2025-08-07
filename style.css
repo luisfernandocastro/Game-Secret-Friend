@@ -160,3 +160,8 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+
+.input__mensajeError{
+    color: rgb(138, 38, 38);
+}
