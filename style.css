@@ -138,7 +138,7 @@ ul {
 #amigoSorteado {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #05DF05;
+    color: #0f6d0f;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -160,7 +160,7 @@ ul {
 }
 
 
-.button-draw img {
+.button-draw img, .button-reiniciar img{
     margin-right: 40px;
 }
 

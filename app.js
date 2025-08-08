@@ -62,7 +62,7 @@ function sortearAmigo(){
     if (amigos.length > 0){
         let amigoSeleccionado = Math.floor(Math.random() * amigos.length) + 1;
 
-        resultadoAmigoSorteado.innerHTML = `El amigo Secreto sorteado es ${amigos[amigoSeleccionado-1]}`;
+        resultadoAmigoSorteado.innerHTML = `El amigo Secreto sorteado es ${amigos[amigoSeleccionado-1].toUpperCase()}`;
 
         console.log(amigoSeleccionado);
 
