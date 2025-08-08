@@ -115,6 +115,7 @@ button {
     cursor: pointer;
 }
 
+
 .button-add {
     background-color: var(--color-tertiary);
     color: var(--color-text);
@@ -134,8 +135,9 @@ ul {
     margin: 20px 0;
 }
 
-.result-list {
+#amigoSorteado {
     margin-top: 15px;
+    margin-bottom: 15px;
     color: #05DF05;
     font-size: 22px;
     font-weight: bold;
@@ -143,15 +145,20 @@ ul {
 }
 
 /* Botón de sortear título */
-.button-draw {
+.button-draw, .button-reiniciar{
     display: flex;
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
-    background-color: var(--color-button);
     font-size: 16px;
 }
+
+
+.button-draw{
+    background-color: var(--color-button);
+    color: var(--color-white);
+}
+
 
 .button-draw img {
     margin-right: 40px;
@@ -161,6 +168,42 @@ ul {
     background-color: var(--color-button-hover);
 }
 
+/* boton cuando esta desactivado */
+
+.button-draw:disabled{
+    background-color: #929292;
+    cursor: none;
+}
+
+.button-draw:disabled:hover{
+    background-color: #929292;
+}
+
+/* ------------------------------------*/
+
+/* estils del boton reiniciar juego */
+
+.button-reiniciar{
+    background-color: #72a3e4;
+    color: #000;
+}
+
+.button-reiniciar:hover{
+    background-color: #1e71dd;
+    color: #ffffff;
+
+}
+
+.botonOculto{
+    display: none;
+}
+
+
+/* ---------------------- */
+
+.container__botones{
+    display: flex;
+}
 
 .input__mensajeError{
     color: rgb(138, 38, 38);

@@ -22,7 +22,7 @@
             <h2 class="section-title">Digite el nombre de sus amigos</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button class="button-add" onclick="agregarAmigo()" pattern="^[A-Za-z]+$" maxlength="35">Añadir</button>
+                <button class="button-add" id="button-add" onclick="agregarAmigo()"  maxlength="35">Añadir</button>
         
             </div>
 
@@ -35,12 +35,24 @@
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
-            <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
-                    Sortear amigo
-                </button>
+            <span id="amigoSorteado"></span>
+
+            <div class="flex justify-center gap-10">
+                <div class="button-container">
+                    <button class="button-draw" id="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto" disabled>
+                        <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                        Sortear amigo
+                    </button>
+                </div>
+    
+                <div class="button-container botonOculto" id="container-btn-reiniciar">
+                    <button class="button-reiniciar " id="button-reiniciar" onclick="reiniciarJuego()" aria-label="Reiniciar Juego" >
+                        <img src="assets/play_circle_outline.png" alt="Ícono para Reiniciar">
+                        Reiniciar Juego
+                    </button>
+                </div>
             </div>
+
         </section>
     </main>
 
