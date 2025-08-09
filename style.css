@@ -33,10 +33,10 @@ body {
 /* Banner */
 .header-banner {
     flex: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 40px 0 0; */
 }
 
 /* Sección de entrada */
@@ -59,9 +59,6 @@ body {
     font-weight: 900;
     font-style: italic;
     color: #ffffff;
-    z-index: 10001;
-    width: 100%;
-    margin-left: 25px;
 }
 
 .section-title {
@@ -212,9 +209,10 @@ ul {
 .input__mensajeError{
     color: rgb(138, 38, 38);
 }
-
-.img-header{
-    position: absolute;
-    z-index: 10000;
-    width: 74vh;
+@media (max-width: 90em) {
+    .img-header{
+        display: none;
+        /* width: 5vh; */
+    }
+    
 }
