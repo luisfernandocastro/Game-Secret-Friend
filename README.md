@@ -9,7 +9,7 @@
 
 🚀 Desarrollo del Challenge amigo secreto con Alura Latam, juego de sortear un nombre de los amigos agregados anteriormente
 
-  🎮 jugar: 
+  🎮 jugar: https://luisfernandocastro.github.io/Game-Secret-Friend/
 
   
 </p>
