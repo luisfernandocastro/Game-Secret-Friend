@@ -58,7 +58,10 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: #ffffff;
+    z-index: 10001;
+    width: 100%;
+    margin-left: 25px;
 }
 
 .section-title {
@@ -133,6 +136,7 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    justify-items: center;
 }
 
 #amigoSorteado {
@@ -207,4 +211,10 @@ ul {
 
 .input__mensajeError{
     color: rgb(138, 38, 38);
+}
+
+.img-header{
+    position: absolute;
+    z-index: 10000;
+    width: 74vh;
 }
