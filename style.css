@@ -209,7 +209,7 @@ ul {
 .input__mensajeError{
     color: rgb(138, 38, 38);
 }
-@media (max-width: 70em) {
+@media (max-width: 50em) {
     .img-header{
         display: none;
         /* width: 5vh; */
@@ -217,5 +217,6 @@ ul {
     
 
 }
+
 
 
