@@ -210,7 +210,7 @@ ul {
     color: rgb(138, 38, 38);
 }
 
-@media (max-width: 50em) {
+@media (max-width: 75em) {
     .img-header{
         display: none;
         /* width: 5vh; */
