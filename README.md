@@ -35,11 +35,17 @@ Este proyecto es una aplicación web ligera que permite:
 
 ## 🚀 Tecnologías utilizadas
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js" />
+</p>
+
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
   <li>JavaScript</li>
 </ul>
+
+
 
 ---
 
